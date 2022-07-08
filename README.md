@@ -8,3 +8,7 @@ add your mysql infos like:
 [mysqldump]
 user=mysql_user
 password=mysql_pass
+
+
+crontab like:
+1 0 * * * /bin/bash des/bk.sh
